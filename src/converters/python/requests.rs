@@ -342,10 +342,7 @@ impl Convert for Requests {
 
                 return output;
             }
-        } else {
-            params.push("allow_redirects=False");
         }
-
         
         if curl_cmd.retry.is_some() {
             
